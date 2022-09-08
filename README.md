@@ -50,3 +50,8 @@ This is a Plasma 5 applet that shows the current window appmenu in your panels. 
 
 You can execute `sh install.sh` in the root directory as long as you have installed the previous mentioned development packages
 
+# Some small change on Arch or Debian family
+
+The only thing you need to do is to change the KDE_INSTALL_QMLDIR value to /usr/lib/qml.
+
+I'm quite busy recently, so I hope some of you could modify the could in cmake file, then it will work not only in freeBSD.
