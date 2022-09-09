@@ -29,6 +29,19 @@ sudo dnf install make cmake extra-cmake-modules qt5-qtdeclarative-devel kf5-plas
 sudo pacman -Sy base-devel libxcb plasma-workspace qt5-base qt5-declarative extra-cmake-modules kwindowsystem plasma-framework libdbusmenu-gtk2 libdbusmenu-gtk3
 ```
 
+Change the KDE_INSTALL_QMLDIR value to /usr/lib/qml: 
+
+```
+sudo vim ~/.zshrc
+```
+
+Add the variable: 
+```
+export KDE_INSTALL_QMLDIR="/usr/lib/qml:$KDE_INSTALL_QMLDIR"
+```
+
+then reboot or log in the account again.
+
 ### Building and Installing
 
 **Now you can run the installation script.**
