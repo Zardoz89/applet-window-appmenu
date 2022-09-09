@@ -32,7 +32,7 @@ sudo pacman -Sy base-devel libxcb plasma-workspace qt5-base qt5-declarative extr
 Change the KDE_INSTALL_QMLDIR value to /usr/lib/qml: 
 
 ```
-sudo vim ~/.zshrc
+vim ~/.zshrc
 ```
 
 Add the variable: 
