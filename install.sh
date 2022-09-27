@@ -2,6 +2,7 @@ if ! [ -a build ] ; then
     mkdir build
 fi
 # Add path to ~/.zshrc or ~/.bashrc
+# the path in archlinux family is different from openSUSE.
 zsh_route=/usr/bin/zsh
 bash_route=/usr/bin/bash
 if [ $SHELL == $bash_route ]
