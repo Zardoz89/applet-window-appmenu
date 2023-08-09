@@ -1,14 +1,14 @@
+cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
 project(applet_window_appmenu)
 
-cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 
 set(CMAKE_CXX_STANDARD 14)
 set(VERSION 0.8.0)
 set(AUTHOR "Michail Vourlakos")
 set(EMAIL "mvourlakos@gmail.com")
 
-set(QT_MIN_VERSION "5.9.0")
-set(KF5_MIN_VERSION "5.38.0")
+set(QT_MIN_VERSION "5.15.0")
+set(KF5_MIN_VERSION "5.81.0")
 
 set(KF5_LOCALE_PREFIX "")
 
