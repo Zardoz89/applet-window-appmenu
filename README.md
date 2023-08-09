@@ -50,3 +50,4 @@ This is a Plasma 5 applet that shows the current window appmenu in your panels. 
 
 You can execute `sh install.sh` in the root directory as long as you have installed the previous mentioned development packages
 
+* 稍微改了改，理论上可用了。
